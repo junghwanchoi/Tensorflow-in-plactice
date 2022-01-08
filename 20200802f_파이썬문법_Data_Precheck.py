@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 mnist = tf.keras.datasets.mnist
 (training_images, training_labels), (test_images, test_labels) = mnist.load_data()
 
-# 데이터 학인
+# 데이터 확인
 print( "training_images[0]:", training_images[0] ) # image[0] 값
 print( "training_labels[0]:", training_labels[0] ) # label[0] 값
 plt.imshow( training_images[0] ) # ipynb에서는 바로 표시됨
